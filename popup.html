@@ -1,0 +1,98 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Screensharing Menu</title>
+    <link href="css/aui-all.css" rel="stylesheet">
+    <script src="js/library/aui-all.js.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            height: 230px;
+            width: 260px;
+        }
+    </style>
+    <script src="js/library/jquery-1.10.2.min.js"></script>
+    <script src="js/popup_api.js"></script>
+    <script src="js/popup.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+
+</head>
+<body>
+<div class="main_body">
+
+
+    <div>
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <section class="aui-page-panel-content" style="height: 300px">
+                    <div style="margin-right: auto; margin-left: auto; width: 90%">
+                        <table>
+                            <tr><td>
+                                <button class="aui-button ext-button">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="icons/glyphicons_077_headset.png" class="buttons-images">
+                                            </td>
+                                            <td>
+                                                <span class="text-in-button">Start OnCall</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </button>
+                            </td></tr>
+                            <tr><td>
+                                <button class="aui-button ext-button">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="icons/glyphicons_355_bullhorn.png" class="buttons-images">
+                                            </td>
+                                            <td>
+                                                <span class="text-in-button">Alert All</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </button>
+                            </td></tr>
+                            <tr><td>
+                                <button class="aui-button ext-button">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="icons/glyphicons_043_group.png" class="buttons-images">
+                                            </td>
+                                            <td>
+                                                <span class="text-in-button">Current Engineers</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </button>
+                            </td></tr>
+                        </table>
+                        <div>
+                            <p>
+                                <a href="#dwarfers" aria-owns="dwarfers" aria-haspopup="true" class="aui-button aui-dropdown2-trigger aui-style-default">Shipmates</a></p>
+                            <!-- Simple Dropdown - dropdown -->
+                            <div id="dwarfers" class="aui-dropdown2 aui-style-default">
+                                <ul class="aui-list-truncate">
+                                    <li><a href="http://example.com/">Lister</a></li>
+                                    <li><a href="http://example.com/">Rimmer</a></li>
+                                    <li><a href="http://example.com/">Cat</a></li>
+                                    <li><a href="http://example.com/">Kryten</a></li>
+                                </ul>
+                            </div><!-- .aui-dropdown2 -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div id="footer-logo">
+            <a></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
